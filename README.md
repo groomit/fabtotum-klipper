@@ -1,3 +1,15 @@
+This is the attempt to make Klipper run on the [Fabtotum Personal Fabricator](https://opentotum.github.io/fabtotum.com-backup/index.html) platform.
+Fabtotum was designed as a modular CoreXY platform with exchangeable Toolheads i.e. for 3d Printing, Milling, Laser engraving
+This repository has following goals:
+
+1. Create a config file for Fabtotum with it's original Totumduino Board -> open
+2. Create a config file for a modified Fabtotum with UART controlled TMC2209 Steppers -> open
+3. Integrate the modular approach of the Fabtotum Platform (react to tool changes, custom g-codes) -> open
+
+Below you find the original Klipper project readme
+
+#################
+
 Welcome to the Klipper project!
 
 [![Klipper](docs/img/klipper-logo-small.png)](https://www.klipper3d.org/)
